@@ -1,3 +1,0 @@
-figure{background:yellow;width:20%}figure figcaption{font-style:italic}@media screen and (min-width: 20em){body:before{background:yellow;content:"Mobile Size"}}@media screen and (min-width: 48em){body:before{background:yellow;content:"Tablet Size"}}@media screen and (min-width: 80em){body:before{background:yellow;content:"Desktop Size"}}
-
-/*# sourceMappingURL=styles.css.map */
