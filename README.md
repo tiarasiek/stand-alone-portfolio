@@ -1,3 +1,2 @@
-# Web 2 Starter
-
-Put information about your project here. 
+# stand-alone-portfolio
+Stand Alone Portfolio
