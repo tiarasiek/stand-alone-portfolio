@@ -10,7 +10,15 @@ footer {
 
 header {
   display: flex;
+    height: 6em;
   justify-content: center;
+    
+    background: #FFF5F1;
+}
+
+header h1 {
+    color: #1B1B1B;
+    font-size: 2.5em;
 }
 
 body {
@@ -30,13 +38,21 @@ figure img {
 }
 
 figure {
-    background: #8C8A8C;
     padding: 20px;
-    width: 30%;
+    width: 100%;
     
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+#lg-counter,
+.lg-toolbar .lg-icon {
+    color: #BAE2D7;
+}
+
+.lg-toolbar .lg-icon:hover {
+    color: #FFF5F1;
 }
 
 
