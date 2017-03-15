@@ -9,6 +9,10 @@ header {
   justify-content: center;
 }
 
+body {
+    background: #FF6A56;
+}
+
 /* Gallery Styling */
 /* Just for Class*/
 figure img {
@@ -21,7 +25,7 @@ figure img {
 }
 
 figure {
-    background: yellow;
+    background: #C6BCB3;
     padding: 20px;
     width: 30%;
     
@@ -32,7 +36,7 @@ figure {
 
 
 .lg-backdrop {
-    background: magenta;
+    background: #FF6A56;
 }
 
 .lg-image {
@@ -52,9 +56,11 @@ MEDIA QUERIES
 @media screen and (min-width: 20em) { 
 
   /* Diagnostic Styling. */
+/*
   body {
        background: red;
   }
+*/
   
     figure {
             width: 100%;
@@ -66,9 +72,11 @@ MEDIA QUERIES
 @media screen and (min-width: 48em)  {
 
   /* Diagnostic Styling. */
+/*
   body {
        background: green;
   }
+*/
     
     figure {
             width: 50%;
@@ -80,9 +88,11 @@ MEDIA QUERIES
 @media screen and (min-width: 80em) { 
   
   /* Diagnostic Styling. */
+/*
   body {
        background: blue;
   }
+*/
  
   /* Main Container */
  main {
