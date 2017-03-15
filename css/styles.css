@@ -3,14 +3,18 @@ YOUR STYLES
 *******************/
 
 
-/* Header */
+/* Header & Footer */
+footer {
+    text-align: center;
+}
+
 header {
   display: flex;
   justify-content: center;
 }
 
 body {
-    background: #FF6A56;
+    background: #BAE2D7;
 }
 
 /* Gallery Styling */
@@ -22,10 +26,11 @@ figure img {
 .gallery {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 figure {
-    background: #C6BCB3;
+    background: #8C8A8C;
     padding: 20px;
     width: 30%;
     
@@ -36,11 +41,19 @@ figure {
 
 
 .lg-backdrop {
-    background: #FF6A56;
+    background: none;
 }
 
 .lg-image {
     box-shadow: 0 0 30px #333;
+}
+
+.lg-toolbar {
+    background: #F98E7E;
+}
+
+.lg-thumb-outer.lg-grab {
+    background-color: #F98E7E;
 }
 
 /* Captions */
