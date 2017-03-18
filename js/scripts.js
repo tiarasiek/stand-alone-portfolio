@@ -18,3 +18,7 @@ $('figure').lightGallery({
     selector: 'a', 
     thumbnail: true
 });
+
+$('a').lightGallery({
+  mode: 'lg-slide-vertical'
+});
