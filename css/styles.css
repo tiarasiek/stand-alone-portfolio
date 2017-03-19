@@ -30,10 +30,11 @@ body {
 /* Gallery Styling */
 /* Just for Class*/
 figure img {
+    display: flex;
     height: 200px;
     width: 200px;
     filter: grayscale(1);
-    transition: 1s ease-in-out;
+    transition: .5s ease-in-out;
 
 }
 
