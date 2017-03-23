@@ -13,7 +13,7 @@ header {
     height: 6em;
   justify-content: center;
     
-    background: #BAE2D7;
+    background: #A9DB64;
 }
 
 header h1 {
@@ -24,7 +24,7 @@ header h1 {
 }
 
 body {
-    background: #F98E7E;
+    background: #7FC6A4;
 }
 
 /* Gallery Styling */
@@ -58,16 +58,16 @@ figure {
 
 #lg-counter,
 .lg-toolbar .lg-icon {
-    color: #BAE2D7;
+    color: #A9DB64;
 }
 
 .lg-toolbar .lg-icon:hover {
-    color: #F98E7E;
+    color: #7FC6A4;
 }
 
 
 .lg-backdrop {
-    background: none;
+    background: rgba(214,248,214,0.6);
 }
 
 .lg-image {
@@ -75,12 +75,12 @@ figure {
 }
 
 .lg-toolbar {
-    background: #FFF5F1;
+    background: #5D737E;
     height: 2.5em;
 }
 
 .lg-thumb-outer.lg-grab {
-    background-color: #FFF5F1;
+    background-color: #5D737E;
 }
 
 .lg-sub-html {
@@ -88,7 +88,7 @@ figure {
 }
 
 .lg-sub-html p {
-    color: #FFF5F1;
+    color: #5D737E;
 }
 
 /* Captions */
