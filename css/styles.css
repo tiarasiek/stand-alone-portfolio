@@ -28,7 +28,8 @@ body {
 }
 
 /* Gallery Styling */
-/* Just for Class*/
+
+/*Thumbnail images*/
 figure img {
     display: flex;
     height: 200px;
@@ -56,6 +57,16 @@ figure {
     justify-content: space-around;
 }
 
+/*Full image styling*/
+.lg-backdrop {
+    background: rgba(214,248,214,0.6);
+}
+
+.lg-image {
+    box-shadow: 0 0 30px #1B1B1B;
+}
+
+/*Toolbar styling*/
 #lg-counter,
 .lg-toolbar .lg-icon {
     color: #A9DB64;
@@ -63,15 +74,6 @@ figure {
 
 .lg-toolbar .lg-icon:hover {
     color: #7FC6A4;
-}
-
-
-.lg-backdrop {
-    background: rgba(214,248,214,0.6);
-}
-
-.lg-image {
-    box-shadow: 0 0 30px #333;
 }
 
 .lg-toolbar {
@@ -83,12 +85,33 @@ figure {
     background-color: #5D737E;
 }
 
+.lg-outer .lg-toogle-thumb {
+    color: #A9DB64;
+}
+
+.lg-outer .lg-toogle-thumb:hover {
+    color: #7FC6A4;
+}
+
+
+/*Caption bar*/
 .lg-sub-html {
     background: #1B1B1B;
 }
 
 .lg-sub-html p {
-    color: #5D737E;
+    color: #A9DB64;
+}
+
+/*Next & Previous buttons*/
+.lg-actions .lg-next, .lg-actions .lg-prev {
+    background-color: #5D737E;
+    color: #A9DB64; 
+}
+
+.lg-actions .lg-next:hover,
+.lg-actions .lg-prev:hover {
+    color: #7FC6A4;
 }
 
 /* Captions */
