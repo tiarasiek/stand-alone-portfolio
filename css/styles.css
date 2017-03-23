@@ -50,9 +50,9 @@ figure img:hover {
 }
 
 figure {
-    padding: 20px;
-    
+    background: yellow;
     display: flex;
+    padding: 20px;
     flex-wrap: wrap;
     justify-content: space-around;
 }
@@ -101,6 +101,7 @@ figure {
 
 .lg-sub-html p {
     color: #A9DB64;
+    font-size: 1em;
 }
 
 /*Next & Previous buttons*/
