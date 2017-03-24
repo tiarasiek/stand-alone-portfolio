@@ -53,12 +53,20 @@ figure img:hover {
 figure {
     background: yellow;
     display: flex;
-    padding: 20px;
+    padding: 1em;
     justify-content: space-around;
 }
 
-figcaption {
+.gallery figure {
+    width: 900px;
+}
+
+.floatr {
     float: right; 
+}
+
+figure .floatr {
+    float: left;
 }
 
 /*Full image styling*/
