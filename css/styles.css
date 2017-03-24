@@ -12,7 +12,7 @@ header {
   display: flex;
     height: 6em;
   justify-content: center;
-    
+    width: 100%;
     background: #A9DB64;
 }
 
@@ -32,11 +32,12 @@ body {
 /*Thumbnail images*/
 figure img {
     display: flex;
+    flex-wrap: wrap;
     height: 200px;
     width: 200px;
     filter: grayscale(1);
     transition: .5s ease-in-out;
-    padding: 1em;
+    padding: .5em;
 
 }
 
@@ -51,22 +52,35 @@ figure img:hover {
 }
 
 figure {
-    background: yellow;
+    background: #5D737E;
     display: flex;
+    flex-wrap: wrap;
     padding: 1em;
     justify-content: space-around;
 }
 
 .gallery figure {
-    width: 900px;
+    width: 70%;
 }
 
-.floatr {
-    float: right; 
+figcaption {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-figure .floatr {
-    float: left;
+figcaption p,
+figcaption h2{
+    text-align: center;
+}
+
+figcaption h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7em;
+}
+
+figcaption p {
+    margin-top: 4px;
 }
 
 /*Full image styling*/
