@@ -36,6 +36,7 @@ figure img {
     width: 200px;
     filter: grayscale(1);
     transition: .5s ease-in-out;
+    padding: 1em;
 
 }
 
@@ -53,8 +54,11 @@ figure {
     background: yellow;
     display: flex;
     padding: 20px;
-    flex-wrap: wrap;
     justify-content: space-around;
+}
+
+figcaption {
+    float: right; 
 }
 
 /*Full image styling*/
@@ -102,6 +106,7 @@ figure {
 .lg-sub-html p {
     color: #A9DB64;
     font-size: 1em;
+    font-family: 'Raleway', sans-serif;
 }
 
 /*Next & Previous buttons*/
